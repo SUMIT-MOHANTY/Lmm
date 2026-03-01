@@ -1,0 +1,72 @@
+.educationSection {
+  background: var(--color-background, #FFFFFF);
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary, #1F2937);
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+.educationList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.educationCard {
+  background: var(--color-background-alt, #F9FAFB);
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 4px solid var(--color-primary, #3B82F6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.educationCard:hover {
+  transform: translateX(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.institution {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--color-text-primary, #1F2937);
+  margin: 0 0 4px 0;
+}
+.degree {
+  font-size: 1rem;
+  color: var(--color-primary, #3B82F6);
+  margin: 0;
+  font-weight: 500;
+}
+.field {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary, #4B5563);
+  margin: 4px 0 8px;
+}
+.dates {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary, #4B5563);
+}
+.gpa {
+  display: inline-block;
+  background: var(--color-primary, #3B82F6);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.achievements {
+  margin-top: 12px;
+  padding-left: 16px;
+}
+.achievement {
+  color: var(--color-text-secondary, #4B5563);
+  font-size: 0.875rem;
+  margin: 4px 0;
+}
+@media (max-width: 768px) {
+  .educationSection { padding: 24px; }
+}
