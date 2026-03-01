@@ -1,0 +1,25 @@
+{
+  "bio": "Software developer with expertise in building scalable web applications.",
+  "skills": ["Python", "JavaScript", "React", "Node.js", "PostgreSQL"],
+  "experience": [
+    {
+      "title": "Senior Developer",
+      "company": "Tech Corp",
+      "period": "2020 - Present",
+      "description": "Led development of customer-facing applications."
+    },
+    {
+      "title": "Web Developer",
+      "company": "Startup Inc",
+      "period": "2018 - 2020",
+      "description": "Built MVP and scaled to 10k users."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Computer Science BS",
+      "school": "State University",
+      "year": "2018"
+    }
+  ]
+}
